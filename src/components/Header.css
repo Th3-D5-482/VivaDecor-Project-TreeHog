@@ -49,6 +49,10 @@
     text-decoration: underline;
     color: var(--third-color);
 }
+.navBar nav ul li a.active {
+    color: var(--third-color);
+    text-decoration: underline;
+}
 .signUpBtn button {
     width: 176px;
     height: 50px;

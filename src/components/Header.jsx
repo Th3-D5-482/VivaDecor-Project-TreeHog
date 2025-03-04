@@ -15,7 +15,7 @@ function Header() {
                     <div className="menu">
                         <nav>
                             <ul> 
-                                <li><a href ="#">Home</a></li>
+                                <li><a href ="#" className="active">Home</a></li>
                                 <li><a href ="#">Services</a></li>
                                 <li><a href ="#">Contact</a></li>
                                 <li><a href ="#">Support</a></li>

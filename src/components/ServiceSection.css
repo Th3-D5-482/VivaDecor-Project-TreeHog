@@ -1,0 +1,55 @@
+.serviceSection {
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+}
+.serviceSection .serviceHeader {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.serviceHeader .line1 {
+    width: 5%;
+    height: 4px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: none;
+    background-color: red;
+}
+.serviceHeader .ourServices {
+    margin-top: 13px;
+}
+.serviceSection .container {
+    width: 100%;
+    height: 184px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .group20 {
+    width: 26%;
+    height: 184px;
+    display: flex;
+    flex-direction: row;
+}
+.container .group20:hover {
+    border: 1px solid var(--third-color);
+    border-radius: 8px;
+    color: var(--third-color);
+}
+.group20 .group20Img {
+    width: 72px;
+    height: 70px;
+}
+.group20 .group4 {
+    width: 300px;
+    height: 180px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.group4 .group4Para {
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
