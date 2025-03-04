@@ -1,0 +1,132 @@
+.heroSection {
+    width: 100%;
+    height: 630px;
+    margin-top: 80px;
+} 
+.heroSection .header {
+    font-size: 3.3rem;
+}
+.heroSection .image1 {
+    width: 40%;
+    height: 43%;
+    position: relative;
+    top: -10%;
+    left: 60%;
+}
+.heroSection .subHeading {
+    width: 759px;
+    height: 168px;
+    color: var(--secondary-color);
+    margin-top: 60px;
+    position: relative;
+    top: -40%;
+}
+.heroSection .subHeading p {
+    margin-bottom: 10px;
+}
+.heroSection .rectangle60 {
+    width: 206px;
+    height: 187px;
+    border: 1px solid;
+    position: relative;
+    left: 40%;
+    top: -47%;
+}
+.heroSection .image2 {
+    width: 48%;
+    height: 48%;
+    position: relative;
+    top: -70%;
+    left: 43%;
+}
+.heroSection .arrowDown {
+    width: 13%;
+    height: 18%;
+    border: none;
+    position: relative;
+    top: -88%;
+    left: 87%;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+.heroSection .startProjectBtn {
+    width: 20%;
+    height: 8%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    position: relative;
+    top: -133%;
+}
+.heroSection .startProjectBtn:hover {
+    background-color: var(--third-color);
+}
+.heroSection .counts {
+    width: 480px;
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    top: -118%;
+}
+.counts .countsInside {
+    width: 160px;
+    height: 116px;
+    padding-top: 20px;
+}
+.counts .countsInside h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+.counts .countsInside p {
+    color: var(--secondary-color);
+}
+@media (max-width: 768px) {
+    .heroSection {  
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+    }
+    .heroSection .header {
+        font-size: 2.3rem;
+    }
+    .heroSection .image1 {
+        width: 100%;
+        height: 30%;
+        top: 3%;
+        left: 0;
+    }
+    .heroSection .subHeading {
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+    .heroSection .image2 {
+        display: none;
+    }
+    .heroSection .arrowDown {
+        display: none;
+    }
+    .heroSection .rectangle60 {
+        display: none;
+    }
+    .heroSection .startProjectBtn {
+       top: 3%;
+       align-self: center;
+       width: 60%;
+       height: 50%;
+       font-size: 1.1rem;
+       font-weight: bold;
+    }
+    .heroSection .counts {
+        align-items: center;
+        top: 3%;
+        width: 100%;
+    }
+    .counts .countsInside h1 {
+        font-size: 1.8rem;
+    }
+}

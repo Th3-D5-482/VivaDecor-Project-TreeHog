@@ -1,0 +1,84 @@
+.navBar {
+    width: 100%;
+    height: 60px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar .logo {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.logo .vector1 {
+    width: 40px;
+    height: 48px;
+    border: 3px solid;
+    border-right: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.logo .vector2 {
+    width: 140px;
+    height: 27px;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.navBar .menu {
+    width: 509px;
+    height: 27px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+.navBar nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navBar nav ul li {
+    list-style: none;
+}
+.navBar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.signUpBtn button {
+    width: 176px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.signUpBtn button:hover {
+    background-color: var(--third-color);
+}
+.navBar .hamBurgerMenu {
+    display: none;
+}
+@media (max-width: 768px) {
+    .navBar .menu {
+        display: none;
+    }
+    .navBar .signUpBtn {
+        display: none;
+    }
+    .navBar .hamBurgerMenu {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hamBurgerMenu .ham {
+        width: 30px;
+        height: 1px;
+        background-color: white;
+        margin-top: 10px;
+        border: 1px solid;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

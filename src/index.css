@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin-left: 106px;
+  margin-right: 106px;
+}
+:root {
+  --primary-color: #2E2E2E;
+  --secondary-color: #545454;
+  --third-color: #FF4B2B;
+}
+@media (max-width: 768px) {
+  body {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
