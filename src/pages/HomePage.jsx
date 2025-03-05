@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
+import Section4 from '../components/Section4';
 import ServiceSection from '../components/ServiceSection';
 function HomePage () {
     return (
@@ -7,6 +8,7 @@ function HomePage () {
         <Header/>
         <HeroSection/>
         <ServiceSection/>
+        <Section4/>
     </>
     );
 }

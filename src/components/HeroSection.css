@@ -115,7 +115,7 @@
         display: none;
     }
     .heroSection .startProjectBtn {
-       top: 1%;
+       top: 0;
        align-self: center;
        width: 60%;
        height: 50%;
@@ -124,7 +124,7 @@
     }
     .heroSection .counts {
         align-items: center;
-        top: 1%;
+        top: 0;
         width: 100%;
     }
     .counts .countsInside h1 {

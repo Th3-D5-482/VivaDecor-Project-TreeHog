@@ -1,0 +1,97 @@
+.section4 {
+    width: 100%;
+    height: 550px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section4 .maskGroupImg {
+    width: 100%;
+    height: 548px;
+}
+.section4 .container1 {
+    width: 100%;
+    height: 550px;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+.container1 h1 {
+    font-size: 2.8rem;
+}
+.container1 h1 p {
+    margin-bottom: 5px;
+}
+.section4 .elevateYour {
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+.section4 .elevateYour p {
+    margin-bottom: 10px;
+}
+.section4 .group24 {
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid var(--secondary-color); 
+    margin-top: 60px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section4 .group23 {
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid var(--secondary-color); 
+    margin-top: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section4 .group7Img {
+    width: 24px;
+    height: 24px;
+}
+.section4 .learnMoreBtn {
+    width: 220px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.section4 .learnMoreBtn:hover {
+    background-color: var(--third-color);
+}
+@media (max-width: 768px) {
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -300px;
+    }
+    .section4 .maskGroupImg {
+        position: relative;
+        top: 560px;
+    }
+    .section4 .container1 {
+        padding-left: 0;
+    }
+    .section4 .elevateYour {
+        position: relative;
+        top: 380px;
+    }
+    .section4 .group24 {
+        position: relative;
+        top: 350px;
+    }
+    .section4 .group23 {
+        position: relative;
+        top: 340px;
+    }
+    .section4 .learnMoreBtn {
+        position: relative;
+        top: 350px;
+    }
+}
