@@ -1,12 +1,11 @@
 import './Section4.css';
-import maskGroup from '../assets/maskGroup.png';
 import group7 from '../assets/group7.png';
 
 function Section4() {
     return(
         <>
             <main className ="section4">
-                <img src ={maskGroup} className='maskGroupImg'/>
+                <div className ="maskGroupImg"></div>
                 <div className ="container1">
                     <h1>Designing Your Dream
                     <p/> With Brilliance
