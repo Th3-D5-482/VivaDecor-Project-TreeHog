@@ -40,9 +40,7 @@ function ProcessSection() {
                         </div>  
                     </div>
                 </div>
-                <div className ="maskGroup">
-                    {/* <img src ={maskGroup1}/> */}
-                </div>
+                <div className ="maskGroup"></div> 
             </main>
         </>
     );

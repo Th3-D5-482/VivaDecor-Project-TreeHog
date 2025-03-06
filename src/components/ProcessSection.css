@@ -1,13 +1,13 @@
 .processSection {
     width: 100%;
-    height: 750px;
+    height: 700px;
     margin-top: 80px;
     display: flex;
     flex-direction: row;
 }
 .processSection .group31 {
     width: 100%;
-    height: 750px;
+    height: 700px;
     display: flex;
     flex-direction: column;
 }
@@ -16,22 +16,22 @@
 }
 .group31 .group31Sec1 {
     width: 100%;
-    height:590px;
+    height:540px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
 }
 .group31Sec1 .group31Part1 {
     width: 130px;
-    height: 590px;
+    height: 540px;
 }
 .group31 .group31Part2 {
     width: 100%;
-    height: 590px;
+    height: 540px;
 }
 .group31Part1 .group25,.group26,.group27 {
-    width: 72px;
-    height: 72px;
+    width: 62px;
+    height: 62px;
     border-radius: 9999px;
     margin-left: 20px;
 }
@@ -49,23 +49,18 @@
     height: 100px;
     border: 1px solid var(--primary-color);
     margin-left: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
-}
-.processSection .maskGroup {
-    width: 100%;
-    height: 750px;
-    border: 1px solid blue;
 }
 .group31Part2 .group28, .group29,.group30 {
     width: 100%;
     height: 130px;
 }
 .group31Part2 .group28 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .group31Part2 .group29,.group30 {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .group28 .embarkOn, .group29 .embarkOn, .group30 .embarkOn {
     color: var(--secondary-color);
@@ -73,4 +68,9 @@
 }
 .group28 .embarkOn p, .group29 .embarkOn p, .group30 .embarkOn p {
     margin-bottom: 5px;
+}
+.processSection .maskGroup {
+    width: 100%;
+    height: 670px;
+    background: url('../assets/maskGroup1.png') no-repeat;
 }
