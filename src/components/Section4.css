@@ -66,33 +66,39 @@
 .section4 .learnMoreBtn:hover {
     background-color: var(--third-color);
 }
+.container1 .maskGroupImg {
+    display: none;
+}
 @media (max-width: 768px) {
     .section4 {
         display: flex;
         flex-direction: column;
-        margin-top: -300px;
+        margin-top: 80px;
     }
     .section4 .maskGroupImg {
-        position: relative;
-        top: 560px;
+        display: none;
     }
     .section4 .container1 {
         padding-left: 0;
     }
+    .container1 h1 {
+        font-size: 2.1rem;
+    }
+    .container1 .maskGroupImg {
+        margin-top: -120px;
+        display: block;
+        background-size: 100% 70%;
+    }
     .section4 .elevateYour {
-        position: relative;
-        top: 380px;
+        /* position: relative;
+        top: 380px; */
     }
     .section4 .group24 {
-        position: relative;
-        top: 350px;
     }
     .section4 .group23 {
-        position: relative;
-        top: 340px;
     }
     .section4 .learnMoreBtn {
-        position: relative;
-        top: 350px;
+        /* position: relative;
+        top: 350px; */
     }
 }

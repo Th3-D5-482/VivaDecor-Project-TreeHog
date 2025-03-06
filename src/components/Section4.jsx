@@ -10,6 +10,7 @@ function Section4() {
                     <h1>Designing Your Dream
                     <p/> With Brilliance
                     </h1>
+                    <div className ="maskGroupImg"></div>
                     <p className ='elevateYour'>
                         Elevate your space with bespoke interior design that reflect
                         <p/>your unique style and aspiration, crafted with precision and 
