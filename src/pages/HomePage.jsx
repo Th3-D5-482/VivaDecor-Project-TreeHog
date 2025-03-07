@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection';
 import ProcessSection from '../components/ProcessSection';
 import Section4 from '../components/Section4';
 import ServiceSection from '../components/ServiceSection';
+import Testamonials from '../components/Testamonials';
 function HomePage () {
     return (
     <>
@@ -11,6 +12,7 @@ function HomePage () {
         <ServiceSection/>
         <Section4/>
         <ProcessSection/>
+        <Testamonials/>
     </>
     );
 }
