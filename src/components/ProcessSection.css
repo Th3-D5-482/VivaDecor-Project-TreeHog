@@ -75,8 +75,32 @@
     height: 670px;
     background: url('../assets/maskGroup1.png') no-repeat 100% 100%;
 }
+.group31 .maskGroup1Img {
+    display: none;
+}
 @media(max-width: 768px) {
     .processSection {
+        margin-top: 500px;
+        display: flex;
+        flex-direction: column;
+        height: 1320px;
+    }
+    .processSection .maskGroup1Img {
         display: none;
+    }
+    .group31 .maskGroup1Img {
+        display: block;
+        width: 85%;
+        height: 548px;
+        background: url('../assets/maskGroup1.png') no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 2540px;
+    }
+    .group31 h1 {
+       font-size: 2.1rem;
+    }
+    .group31 .group31Sec1 {
+        margin-top: 620px;
     }
 }

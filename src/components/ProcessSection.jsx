@@ -7,6 +7,7 @@ function ProcessSection() {
                     <h1>Designing Your Dream in 
                     <p/>Three Simple Steps
                     </h1>
+                    <div className ="maskGroup1Img"></div>
                     <div className ="group31Sec1">
                         <div className ="group31Part1">
                             <div className ="group25"></div>
