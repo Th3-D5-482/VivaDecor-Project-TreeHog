@@ -1,8 +1,7 @@
 .testamonials {
     width: 100%;
-    height: 730px;
+    height: 700px;
     margin-top: 100px;
-    border: 1px solid purple;
 }
 .testamonials .cat1 {
     display: flex;
@@ -14,7 +13,7 @@
 }
 .cat1 h1 {
     font-size: 2.8rem;
-    margin-left: 80px;
+    margin-left: 5%;
 }
 .cat1 h1 p {
     margin-bottom: 5px;
@@ -31,7 +30,7 @@
 }
 .catTestamonials .testamonial1, .testamonial2 {
     width: 100%;
-    height: 550px;
+    height: 520px;
     border-radius: 8px;
     padding-top: 80px;
     padding-left: 50px;
@@ -39,11 +38,7 @@
     background-color: var(--primary-color);
 }
 .catTestamonials .testamonial1 {
-    border: 1px solid green;
     margin-right: 50px;
-}
-.catTestamonials .testamonial2 {
-    border: 1px solid blue;
 }
 .catTestamonials .doubleQuotesImg {
     display: flex;
@@ -55,4 +50,61 @@
 }
 .catTestamonials .workingWith p {
     margin-bottom: 5px;
+}
+.catTestamonials .testamonialsPerson{
+    width: 100%;
+    height: 75px; 
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.testamonialsPerson .person1Face, .person2Face {
+    width: 72px;
+    height: 72px;
+}
+.testamonialsPerson .person1Face {
+    background: url('../assets/face1.png') no-repeat 100% 100%;
+}
+.testamonialsPerson .person2Face {
+    background: url('../assets/face2.png') no-repeat 100% 100%;
+}
+.testamonialsPerson .nameNCountry {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.nameNCountry .country {
+    margin-top: 5px;
+    color: var(--secondary-color);
+}
+.testamonials .leftNRightArrow {
+    display: flex;
+    flex-direction: row;
+    width: 13%;
+    height: 100px;
+    position: relative;
+    top: -550px;
+    justify-content: space-between;
+}
+.leftNRightArrow .leftArrowBtn, .rightArrowBtn {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    position: relative;
+    top: 20px;
+}
+.leftNRightArrow .leftArrowBtn {
+    background: var(--primary-color) url('../assets/leftArrow.png') no-repeat 50% 50%;
+}
+.leftNRightArrow .rightArrowBtn {
+    background: var(--primary-color) url('../assets/rightArrow.png') no-repeat 50% 50%;
+}
+@media (max-width: 768px) {
+    .testamonials {
+        display: none;
+    }
 }

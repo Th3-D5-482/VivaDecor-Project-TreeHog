@@ -20,6 +20,13 @@ function Testamonials () {
                         <p/>and creativity exceeded my expectations. 
                         <p/>Thank you for making my home beautiful!
                         </p>
+                        <div className ="testamonialsPerson">
+                            <div className ="person1Face"></div>
+                            <div className ="nameNCountry">
+                                <h3>Sophie Carter</h3>
+                                <p className ="country">New York, USA</p>
+                            </div>
+                        </div>
                     </div>
                     <div className ="testamonial2">
                         <img src ={doubleQuotes} className ="doubleQuotesImg"/>
@@ -28,7 +35,18 @@ function Testamonials () {
                         <p/>demonstrated professionalism and a keen  
                         <p/>eye for design. Highly recommend!
                         </p>
+                        <div className ="testamonialsPerson">
+                            <div className ="person2Face"></div>
+                            <div className ="nameNCountry">
+                                <h3>James Bennett</h3>
+                                <p className ="country">Toronto, Canada</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div className ="leftNRightArrow">
+                    <div className ="leftArrowBtn"></div>
+                    <div className ="rightArrowBtn"></div>
                 </div>
             </main>
         </>
