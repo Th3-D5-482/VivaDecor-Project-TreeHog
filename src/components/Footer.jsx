@@ -9,7 +9,7 @@ function Footer() {
         <>
             <footer>
                 <div className ="footerSec">
-                    <div className ="firstSec">
+                    <div className ="firstSec1">
                         <div className ="logo">
                             <div className ="vector1">
                                 Vi
@@ -31,7 +31,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className ="firstSec">
-                    <h3>Our Services</h3>
+                        <h3>Our Services</h3>
                         <p className ="part1">
                             <a href ="#">Interior design</a>
                         </p>
