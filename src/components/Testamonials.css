@@ -100,8 +100,15 @@
 .leftNRightArrow .leftArrowBtn {
     background: var(--primary-color) url('../assets/leftArrow.png') no-repeat 50% 50%;
 }
+.leftNRightArrow .leftArrowBtn:hover {
+    background-color: var(--third-color);
+}
 .leftNRightArrow .rightArrowBtn {
     background: var(--primary-color) url('../assets/rightArrow.png') no-repeat 50% 50%;
+}
+.leftNRightArrow .rightArrowBtn:hover {
+    background-color: var(--third-color);
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     .testamonials {

@@ -34,11 +34,6 @@
     display: flex;
     flex-direction: row;
 }
-.container .group20:hover {
-    border: 1px solid var(--third-color);
-    border-radius: 8px;
-    color: var(--third-color);
-}
 .group20 .group20Img {
     width: 72px;
     height: 70px;
