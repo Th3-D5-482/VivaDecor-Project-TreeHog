@@ -105,6 +105,29 @@
 }
 @media (max-width: 768px) {
     .testamonials {
+        margin-top: 60px;
+        height: 1350px;
+    }
+    .testamonials .cat1 {
+        flex-direction: column;
+    }
+    .cat1 h1 {
+        font-size: 2.1rem;
+    }
+    .cat1 .maskGroup2Img {
         display: none;
+    }
+    .testamonials .catTestamonials {
+        width: 100%;
+        height: 1100px;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .testamonials .leftNRightArrow {
+        top: 20px;
+        width: 180px;
+        left: 80px;
     }
 }
